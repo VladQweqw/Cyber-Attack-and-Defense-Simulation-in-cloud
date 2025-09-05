@@ -1,5 +1,0 @@
-Saptamana 1
-
-Download software necesar: WireShark, Terraform, Kubernetes, Metasploi, ELK Stack, Suricata.
-
-Am creat contul AWS si am create de asemena o masina virtuala EC2. cu linux si 10gb ram.

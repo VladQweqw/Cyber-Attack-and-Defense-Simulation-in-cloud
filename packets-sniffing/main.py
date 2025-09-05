@@ -1,0 +1,4 @@
+from sniff_network import sniff_packets
+from read_file import read_packets_from_file
+
+read_packets_from_file()
