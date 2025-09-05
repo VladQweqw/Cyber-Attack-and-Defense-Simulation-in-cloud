@@ -1,2 +1,3 @@
 SAVE_PATH = "./reads/traffic.pcapng"
 MY_IP = '192.168.1.169'
+INTERFACE = "\\Device\\NPF_{97828547-42FF-410D-9D7A-C73A9C2E53D6}"

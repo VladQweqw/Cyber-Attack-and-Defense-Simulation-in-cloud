@@ -8,3 +8,6 @@ def read_packets_from_file():
         if "IP" in packet:
             if packet.ip.dst == MY_IP:
                 print(f"IP Source: {packet.ip.src} -> IP Dest: {packet.ip.dst}")
+
+    cap.close()
+
