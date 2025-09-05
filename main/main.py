@@ -1,7 +1,6 @@
 from identify_attacks import listen_arp_spoofing_call
 
 from constants import DEFAULT_NETWORK_IP, DEFAULT_SUBNET
-from helpers import convertSubnetMaskToSlash
 
 
 while True:

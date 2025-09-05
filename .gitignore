@@ -1,8 +1,2 @@
-
-apps
-Wireshark-4.4.5-x64.exe
-Suricata 7.0.8-64bit IDS-IPS.lnk
-kubectl.exe
-terraform_1.11.2_windows_386
-elasticsearch-8.17.3-windows-x86_64
-KEY_1.pem
+*tempCodeRunnerFile.py
+*__pycache__
