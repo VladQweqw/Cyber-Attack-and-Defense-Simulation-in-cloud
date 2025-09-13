@@ -1,11 +1,11 @@
 import pyshark
-from constants import SAVE_PATH, INTERFACE
+from constants import SAVE_PATH
 from read_file import read_packets_from_file
 
-def sniff_packets():
+def sniff_packets(interface):
     print("=-=-= Capture started =-=-=")
 
-    capture = pyshark.LiveCapture(interface=INTERFACE, output_file=SAVE_PATH)
+    capture = pyshark.LiveCapture(interface=interface, output_file=SAVE_PATH)
     # capture.sniff(timeout=5) # pe timp
 
     capture.sniff(packet_count=100)
@@ -15,8 +15,8 @@ def sniff_packets():
     capture.close()
 
 
-def capture_live_packets(cb):
-    capture = pyshark.LiveCapture(interface=INTERFACE)
+def capture_live_packets(cb, interface):
+    capture = pyshark.LiveCapture(interface=interface)
     for raw_packet in capture.sniff_continuously():
         try:
             cb(raw_packet)

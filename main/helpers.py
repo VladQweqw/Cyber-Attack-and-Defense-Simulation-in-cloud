@@ -1,3 +1,5 @@
+import psutil
+
 def convert_subnetMask_to_slash(subnet_mask):
     mask = 0
 
@@ -7,6 +9,50 @@ def convert_subnetMask_to_slash(subnet_mask):
     return mask
 
 
+def get_network_ip(host_ip, subnet_mask):
+    host_ip_bin = convert_IP_to_binary(host_ip)
+    subnet_bin = convert_IP_to_binary(subnet_mask)
+
+    network_ip = ""
+    for idx in range(32):
+        if (host_ip_bin[idx] == subnet_bin[idx]) and host_ip_bin[idx] == "1":
+            network_ip += "1"
+        else:
+            network_ip += "0"
+            
+    return network_ip
+
+def binary_to_decimanal_address(ip_binary):
+    a = ip_binary[:8]
+    b = ip_binary[9:16]
+    c = ip_binary[17:24]
+    d = ip_binary[25:]
+
+    
+
+
+def find_main_interfaces():
+    interfaces = find_interfaces()
+    result = []
+
+    for interf in interfaces:
+        if interf[0] == "Wi-Fi" or interf[0] == "Ethernet":
+            result.append(interf)
+            continue
+    
+    return result
+
+def find_interfaces():
+    addresses = []
+
+    for interface, addrs in psutil.net_if_addrs().items():
+        for addr in addrs:
+            if addr.family == 2:
+                addresses.append(
+                   (interface, addr.address, addr.netmask)
+                )
+    
+    return addresses
 
 def convert_IP_to_binary(ip):
     new_ip = ""

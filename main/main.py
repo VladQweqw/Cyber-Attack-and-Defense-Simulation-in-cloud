@@ -1,21 +1,31 @@
 from identify_attacks import listen_arp_spoofing_call
-
-from constants import DEFAULT_NETWORK_IP, DEFAULT_SUBNET
-
+from helpers import  find_main_interfaces, get_network_ip
 
 while True:
-    print("What u wanna do?\n[1] -> Listen for ARP Spoofing")
+    interfaces = find_main_interfaces()
+
+    device_IP = ""
+    netmask = ""
+    current_interface_name = ''
+
+    print("Available interfaces")
+    for index in range(len(interfaces)):
+        interf = interfaces[index]
+
+        if index == 0:
+            device_IP = interf[1]
+            netmask = interf[2]
+            current_interface_name = interf[0]
+
+        print(f"{'=> ' if index == 0 else ""} {interf[0]}: {interf[1]} {interf[2]}")
+
+    network_ip = get_network_ip(device_IP, netmask)
+
+    print("\nWhat u wanna do?\n[1] -> Listen for ARP Spoofing")
     option = input("Option: ")
 
     if option == "1":
-        new_network = input(f"You want to change default network? ({DEFAULT_NETWORK_IP}):\n(y/N)")
-        if(new_network):
-            new_subnet = input(f"You want to change default subnet? ({DEFAULT_SUBNET}):\n(y/N)")
-
-        if(new_network != ""):
-            listen_arp_spoofing_call(new_network, new_subnet)
-        else:
-            listen_arp_spoofing_call(DEFAULT_NETWORK_IP, DEFAULT_SUBNET)
+        listen_arp_spoofing_call(network_ip, netmask, current_interface_name)
     else:
         print("invalid")
 
