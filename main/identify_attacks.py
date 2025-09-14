@@ -7,6 +7,8 @@ def listen_arp_spoofing(packet, network_ip, subnet):
     ip_dest, ip_src = "", ""
     mac_dest, mac_src = "", ""
 
+    # if packet type is arp requsest sau cv cu new mac for my ip, alert it sau cv si blocheaza trimitand tu alt arp req
+
     print(packet)
 
     if "IP" in packet:
