@@ -36,15 +36,11 @@ def binary_to_decimal(binary_value):
 
 def binary_to_decimanal_address(ip_binary):
     a = ip_binary[:8]
-    b = ip_binary[9:16]
-    c = ip_binary[17:24]
-    d = ip_binary[25:]
+    b = ip_binary[8:16]
+    c = ip_binary[16:24]
+    d = ip_binary[24:]
 
-
-    print(a, binary_to_decimal(a))
-
-
-    
+    return f"{binary_to_decimal(a)}.{binary_to_decimal(b)}.{binary_to_decimal(c)}.{binary_to_decimal(d)}"
 
 
 def find_main_interfaces():
