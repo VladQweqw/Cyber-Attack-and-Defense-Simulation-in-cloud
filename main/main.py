@@ -1,5 +1,9 @@
 from identify_attacks import listen_arp_spoofing_call
-from helpers import  find_main_interfaces, get_network_ip
+from helpers import  find_main_interfaces, get_network_ip, binary_to_decimanal_address
+
+print(
+    binary_to_decimanal_address("11000000101010001010010100000000")
+)
 
 while True:
     interfaces = find_main_interfaces()

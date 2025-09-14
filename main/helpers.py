@@ -22,11 +22,27 @@ def get_network_ip(host_ip, subnet_mask):
             
     return network_ip
 
+def binary_to_decimal(binary_value):
+    dec_val = 0
+    exponent = len(binary_value) - 1
+
+    for digit in binary_value:
+        if digit == "1":
+            dec_val += pow(2, exponent)
+
+        exponent -= 1
+
+    return dec_val
+
 def binary_to_decimanal_address(ip_binary):
     a = ip_binary[:8]
     b = ip_binary[9:16]
     c = ip_binary[17:24]
     d = ip_binary[25:]
+
+
+    print(a, binary_to_decimal(a))
+
 
     
 
