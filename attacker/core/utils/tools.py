@@ -16,7 +16,6 @@ def netowrk_scan(network_ip, netmask='24', timeout=5, iface='eth1'):
 
     print(f"Summary: answered {len(ans)}, unanswered {len(unans)}")
 
-
 def port_scanner(target_ip, port_range='22-443'):
     print("Starting scanning ports...")
     nm = nmap.PortScanner()

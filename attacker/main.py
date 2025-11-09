@@ -1,8 +1,6 @@
 import core.utils.attacks as attacks
 import core.utils.tools as tools
 
-tools.port_scanner("192.168.1.167")
-
 class Attacker:
     logo = r""" 
      ___           ____                 _             _   _             
@@ -21,11 +19,13 @@ class Attacker:
             "3": "Device Info",
         },
         "Attacks": {
-            "4": "ARP Spoofing",
-            "5": "IP Spoofing", 
-            "6": "DHCP Starvation",
-            "7": "ARP Poisoning",
-            "8": "Man in the middle Ethernet"
+            "4": "ARP Spoofing ",
+            "5": "ARP Spoofing (MIMT)",
+            "6": "DHCP Starvation", 
+            "7": "DHCP Spoofing",
+            "8": "IP Spoofing",
+            "9": "DNS Poisoning",
+            "10": "DNS Poisoning"
         },
         "Command": {
             "exit": "To close the program"
