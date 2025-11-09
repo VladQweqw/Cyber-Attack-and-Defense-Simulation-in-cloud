@@ -1,6 +1,8 @@
 import core.utils.attacks as attacks
 import core.utils.tools as tools
 
+tools.port_scanner("192.168.1.167")
+
 class Attacker:
     logo = r""" 
      ___           ____                 _             _   _             
@@ -83,7 +85,7 @@ class Attacker:
             else:
                 self.run_attack(user_option)
                 input("<enter> to continue")
-                
+
             # ask the user again no matter
             self.display_options()
             user_option = self.ask_user_option()
