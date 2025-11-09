@@ -9,13 +9,12 @@
 
 ## 🛠️ Tech Stack
 - Python
-- AWS
-- Azure
-- GCP
-- Terraform
-- Kubernetes
-- Metasploit
-- Suricata
+- Scapy
 - Wireshark
+
+## Branch Managment
+- main: used for stable builds
+- feature/version/feature-name: used to implement new features
+- base/version/core: used to implement core funtions
 
 
