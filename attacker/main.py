@@ -52,6 +52,9 @@ class Attacker:
             typeOf = 'Attacks'
     
         print(f"Running {self.attack_options[typeOf][option]}")
+        tools.netowrk_scan("192.168.1.0", '24')
+
+        print("\n")
 
     def isOptionValid(self, user_option):
         valids = [
@@ -79,6 +82,7 @@ class Attacker:
                 print("=== Invalid Option ===\n")
             else:
                 self.run_attack(user_option)
+                input("<enter> to continue")
                 
             # ask the user again no matter
             self.display_options()
