@@ -1,20 +1,23 @@
-# imports
 from scapy.all import *
 import nmap
 
-def netowrk_scan(network_ip, netmask='24', timeout=5, iface='eth1'):
-    print("Starting sending packets...")
-    ether_header = Ether(src = '00:00:00:11:22:33', dst="FF:FF:FF:FF:FF:FF")
+def network_scan(network_ip, netmask='24', timeout=2, iface='eth0', verbose=False, output=False):
+    print(f"Scanning network on {iface}...")
+    ether_header = Ether(dst="ff:ff:ff:ff:ff:ff")    
     arp_header = ARP(pdst=f"{network_ip}/{netmask}")
-
     frame = ether_header / arp_header
 
-    ans, unans = srp(frame, timeout=timeout, verbose=False) # pune iface
-    
-    for send, received in ans:
-        print(f"{received[ARP].pdst} is at {received[Ether].src}")
+    ans, unans = srp(frame, timeout=timeout, verbose=False, iface=iface)
 
-    print(f"Summary: answered {len(ans)}, unanswered {len(unans)}")
+    if not verbose:
+        for send, received in ans:
+            print(f"=> {received[ARP].psrc} is at {received[Ether].src}")
+
+        print(f"Summary: answered {len(ans)}, unanswered {len(unans)}")
+
+    if output: 
+        return ans
+
 
 def port_scanner(target_ip, port_range='22-443'):
     print("Starting scanning ports...")
