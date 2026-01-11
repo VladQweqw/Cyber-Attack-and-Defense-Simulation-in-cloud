@@ -1,7 +1,6 @@
-# Cyber-Attack-and-Defense-Simulation-in-cloud
-### Made by [Poienariu Vlad](https://www.linkedin.com/in/poienariu-vlad/)
+<img width="1000" height="500" alt="Group 4" style="display: block; margin: 0 auto" src="https://github.com/user-attachments/assets/591ea278-c9da-47f9-9544-9216550e9724" />
 
-![cyber](https://eu-images.contentstack.com/v3/assets/blt69509c9116440be8/blt8ffb90a2f64bacfa/6776f4544b281ca5e2bc465a/cybersecurity_NicoElNino-AlamyStockPhoto.jpg)
+# Casper - A pentesting tool
 
 ## 🚀 Features
 - ARP Spoofing Attack Notification & Prevention ( currently implemented )
