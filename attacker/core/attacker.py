@@ -37,7 +37,7 @@ attackComboFrame.grid(row=1, column=0, sticky='nsew')
 interfaceComboFrame.grid(row=1, column=1, sticky='nsew')
 
 # app title
-image = tk.PhotoImage(file='logo.png')
+image = tk.PhotoImage(file='public/images/logo.png')
 appTitle = ttk.Label(header_frame, image=image)
 appTitle.place(relx=0.5, rely=.5, anchor="center")
 
@@ -63,11 +63,15 @@ interfacesLabel = tk.Label(
     text="Choose interface")
 interfacesLabel.pack(side='top')
 
+# get interfaces
+
+interfaces, brief_interfaces = tools.get_interfaces()
+
 interfacesText = tk.StringVar(value=menu_options[0])
 interfacesCombo = ttk.Combobox(
     interfaceComboFrame, 
     textvariable=interfacesText,
-    values=menu_options,
+    values=brief_interfaces,
     state='readonly',
     width=30
 )
