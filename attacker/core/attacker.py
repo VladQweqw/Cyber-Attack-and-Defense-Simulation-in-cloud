@@ -16,7 +16,7 @@ root.geometry('600x700')
 root.minsize(600, 700)
 root.maxsize(600, 700)
 root.title("Casper - Peneration testing tool")
-
+root.iconbitmap("public/images/logo.ico")
 # grid layout
 
 # 3 columns, 1fr 1fr 1fr
@@ -37,7 +37,7 @@ attackComboFrame.grid(row=1, column=0, sticky='nsew')
 interfaceComboFrame.grid(row=1, column=1, sticky='nsew')
 
 # app title
-image = tk.PhotoImage(file='public/images/logo.png')
+image = tk.PhotoImage(file='public/images/hero_logo.png')
 appTitle = ttk.Label(header_frame, image=image)
 appTitle.place(relx=0.5, rely=.5, anchor="center")
 
