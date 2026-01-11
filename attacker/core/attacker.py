@@ -6,9 +6,11 @@ import core.utils.panels as panels
 
 import psutil
 import ipaddress
+import ctypes
 
 import tkinter as tk
 from tkinter import ttk
+from tkinter import font
 import sv_ttk
 
 # variables
@@ -20,10 +22,16 @@ sv_ttk.set_theme('dark')
 root.geometry('600x700')
 root.minsize(600, 700)
 root.maxsize(600, 700)
+
+# App title / icon
 root.title("Casper - Peneration testing tool")
 root.iconbitmap("public/images/logo.ico")
-# grid layout
 
+# font
+default_font = font.nametofont("TkDefaultFont")
+default_font.config(family='Segoe UI', size=12)
+
+# grid layout
 # 2 columns, 1fr 1fr
 root.columnconfigure(0, weight=1)
 root.columnconfigure(1, weight=1)
@@ -62,12 +70,6 @@ attackCombo = ttk.Combobox(
 )
 attackCombo.place(anchor='center', relx=0.5, rely=0.2)
 
-# get combobox state
-def get_current_attack(event):
-    current_attack_option = attackCombo.get()
-    print(attackCombo.get())
-
-attackCombo.bind("<<ComboboxSelected>>", get_current_attack)
 
 # Interface dropdown
 interfacesLabel = tk.Label(
@@ -113,7 +115,21 @@ content_frame.rowconfigure(2, weight=1)
 # panels config
 panels.clear_frame(content_frame)
 
+# add attack combobox listener
+def get_current_attack(event):
+    current_attack_option = attackCombo.get()
+    if current_attack_option == "Network Scan":
+        panels.network_scan(content_frame, ttk)
+    elif current_attack_option == "Port Scanner": 
+        panels.port_scan(content_frame, ttk)
+    elif current_attack_option == "ARP Spoofing":
+        panels.arp_spoofing(content_frame, ttk)
+    elif current_attack_option == "ARP Spoofing (MITM)":
+        panels.dns_poison(content_frame, ttk)
 
+    print(attackCombo.get())
+
+attackCombo.bind("<<ComboboxSelected>>", get_current_attack)
 
 # last line
 root.mainloop()
