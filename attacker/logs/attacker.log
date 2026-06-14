@@ -593,3 +593,208 @@
 8/6/2026 21:32:53 [INFO] State changed: selected_target is now ('10.25.4.50', '44:A8:42:34:2D:09', '', None)
 8/6/2026 21:32:54 [INFO] State changed: selected_source_index is now 2
 8/6/2026 21:32:54 [INFO] State changed: selected_source is now ('10.25.4.167', 'C4:65:16:B3:A7:F6', '', None)
+14/6/2026 16:37:37 [INFO] Network (quick_scan) scan started on 192.168.65.0/24 using iface: wlp1s0
+14/6/2026 16:37:52 [INFO] Network scan (quick_scan) completed on 192.168.65.0/24, 2 targets found
+14/6/2026 16:37:52 [INFO] Netowork scan target dropdown is being updated with [('192.168.65.1', '00:1E:42:18:A4:53', '', None), ('192.168.65.240', '44:D9:E7:64:88:57', '', None)]
+14/6/2026 16:37:52 [INFO] Netowork scan table is being updated with [('192.168.65.1', '00:1E:42:18:A4:53', '', None), ('192.168.65.240', '44:D9:E7:64:88:57', '', None)]
+14/6/2026 16:37:56 [INFO] State changed: selected_source_index is now 1
+14/6/2026 16:37:56 [INFO] State changed: selected_source is now ('192.168.65.1', '00:1E:42:18:A4:53', '', None)
+14/6/2026 16:37:58 [INFO] State changed: selected_target_index is now 1
+14/6/2026 16:37:58 [INFO] State changed: selected_target is now ('192.168.65.240', '44:D9:E7:64:88:57', '', None)
+14/6/2026 18:34:24 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:34:26 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 5 targets found
+14/6/2026 18:34:26 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:34:26 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:34:31 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:34:31 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:34:33 [INFO] State changed: selected_target_index is now 1
+14/6/2026 18:34:33 [INFO] State changed: selected_target is now ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None)
+14/6/2026 18:41:26 [INFO] State changed: selected_target_index is now 1
+14/6/2026 18:41:26 [INFO] State changed: selected_target is now ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None)
+14/6/2026 18:41:28 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:41:28 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:42:28 [INFO] State changed: selected_source_index is now 2
+14/6/2026 18:42:28 [INFO] State changed: selected_source is now ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None)
+14/6/2026 18:42:33 [INFO] State changed: selected_source_index is now 3
+14/6/2026 18:42:33 [INFO] State changed: selected_source is now ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None)
+14/6/2026 18:42:35 [INFO] State changed: selected_target_index is now 3
+14/6/2026 18:42:35 [INFO] State changed: selected_target is now ('192.168.0.241', '74:40:BE:24:C6:76', '', None)
+14/6/2026 18:42:38 [INFO] State changed: selected_target_index is now 4
+14/6/2026 18:42:38 [INFO] State changed: selected_target is now ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)
+14/6/2026 18:44:19 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:44:22 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 18:44:22 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:44:22 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:44:38 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:44:38 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:44:40 [INFO] State changed: selected_target_index is now 3
+14/6/2026 18:44:40 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 18:45:9 [INFO] State changed: selected_source_index is now 0
+14/6/2026 18:45:9 [INFO] State changed: selected_source is now ('host', '', '', '')
+14/6/2026 18:46:36 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:46:38 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 5 targets found
+14/6/2026 18:46:38 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:46:38 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:46:42 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:46:42 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:46:44 [INFO] State changed: selected_target_index is now 1
+14/6/2026 18:46:44 [INFO] State changed: selected_target is now ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None)
+14/6/2026 18:46:47 [INFO] State changed: selected_target_index is now 1
+14/6/2026 18:46:47 [INFO] State changed: selected_target is now ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None)
+14/6/2026 18:47:14 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:47:17 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 18:47:17 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:47:17 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:47:19 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:47:19 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:47:19 [INFO] Loaded from cache, selected_target: ()
+14/6/2026 18:47:19 [INFO] Loaded from cache, scanned_targets: [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:47:21 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:47:21 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:47:23 [INFO] State changed: selected_target_index is now 3
+14/6/2026 18:47:23 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 18:47:56 [INFO] State changed: selected_source_index is now 3
+14/6/2026 18:47:56 [INFO] State changed: selected_source is now ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None)
+14/6/2026 18:48:0 [INFO] State changed: selected_source_index is now 5
+14/6/2026 18:48:0 [INFO] State changed: selected_source is now ('192.168.0.241', '74:40:BE:24:C6:76', '', None)
+14/6/2026 18:49:12 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:49:14 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 18:49:14 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:49:14 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:49:19 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:49:19 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:49:20 [INFO] State changed: selected_target_index is now 2
+14/6/2026 18:49:20 [INFO] State changed: selected_target is now ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None)
+14/6/2026 18:49:53 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:49:55 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 7 targets found
+14/6/2026 18:49:55 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:49:55 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:49:58 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:49:58 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:49:59 [INFO] State changed: selected_target_index is now 3
+14/6/2026 18:49:59 [INFO] State changed: selected_target is now ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None)
+14/6/2026 18:50:1 [INFO] State changed: selected_target_index is now 4
+14/6/2026 18:50:1 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 18:51:2 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:51:4 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 7 targets found
+14/6/2026 18:51:4 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:51:4 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:51:9 [INFO] State changed: selected_target_index is now 2
+14/6/2026 18:51:9 [INFO] State changed: selected_target is now ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None)
+14/6/2026 18:51:10 [INFO] State changed: selected_source_index is now 2
+14/6/2026 18:51:10 [INFO] State changed: selected_source is now ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None)
+14/6/2026 18:51:45 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:51:47 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 18:51:47 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:51:47 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:51:50 [INFO] State changed: selected_target_index is now 3
+14/6/2026 18:51:50 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 18:51:51 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:51:51 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:52:37 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:52:40 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 18:52:40 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:52:40 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:52:43 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:52:43 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:52:44 [INFO] State changed: selected_target_index is now 1
+14/6/2026 18:52:44 [INFO] State changed: selected_target is now ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None)
+14/6/2026 18:53:30 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:53:36 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 18:53:36 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:53:36 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:53:38 [INFO] State changed: selected_target_index is now 1
+14/6/2026 18:53:38 [INFO] State changed: selected_target is now ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None)
+14/6/2026 18:53:39 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:53:39 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:54:49 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 18:54:51 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 18:54:51 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:54:51 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.122', '1E:F0:20:CD:7E:42', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)]
+14/6/2026 18:54:55 [INFO] State changed: selected_source_index is now 1
+14/6/2026 18:54:55 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 18:54:56 [INFO] State changed: selected_target_index is now 4
+14/6/2026 18:54:56 [INFO] State changed: selected_target is now ('192.168.0.241', '74:40:BE:24:C6:76', '', None)
+14/6/2026 18:54:58 [INFO] State changed: selected_target_index is now 3
+14/6/2026 18:54:58 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 19:1:44 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 19:1:46 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 7 targets found
+14/6/2026 19:1:46 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:1:47 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:1:57 [INFO] State changed: selected_source_index is now 0
+14/6/2026 19:1:57 [INFO] State changed: selected_source is now ('host', '', '', '')
+14/6/2026 19:1:59 [INFO] State changed: selected_source_index is now 1
+14/6/2026 19:1:59 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 19:2:0 [INFO] State changed: selected_target_index is now 4
+14/6/2026 19:2:0 [INFO] State changed: selected_target is now ('192.168.0.241', '74:40:BE:24:C6:76', '', None)
+14/6/2026 19:2:1 [INFO] State changed: selected_target_index is now 3
+14/6/2026 19:2:1 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 19:5:14 [INFO] State changed: selected_source_index is now 3
+14/6/2026 19:5:14 [INFO] State changed: selected_source is now ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None)
+14/6/2026 19:5:22 [INFO] State changed: selected_source_index is now 6
+14/6/2026 19:5:22 [INFO] State changed: selected_source is now ('192.168.0.3', '70:4D:7B:15:59:AC', '', None)
+14/6/2026 19:5:35 [INFO] State changed: selected_source_index is now 1
+14/6/2026 19:5:35 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 19:6:23 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 19:6:26 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 19:6:26 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:6:26 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:6:28 [INFO] State changed: selected_source_index is now 1
+14/6/2026 19:6:28 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 19:6:30 [INFO] State changed: selected_target_index is now 3
+14/6/2026 19:6:30 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 19:7:55 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 19:7:58 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 7 targets found
+14/6/2026 19:7:58 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:7:58 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:8:3 [INFO] State changed: selected_target_index is now 3
+14/6/2026 19:8:3 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 19:8:5 [INFO] State changed: selected_source_index is now 1
+14/6/2026 19:8:5 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 19:8:50 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 19:8:52 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 19:8:52 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:8:52 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:9:1 [INFO] State changed: selected_target_index is now 1
+14/6/2026 19:9:1 [INFO] State changed: selected_target is now ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None)
+14/6/2026 19:9:2 [INFO] State changed: selected_source_index is now 1
+14/6/2026 19:9:2 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 19:9:11 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:9:11 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:9:11 [INFO] Loaded from cache, selected_target: ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None)
+14/6/2026 19:9:11 [INFO] Loaded from cache, scanned_targets: [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:9:11 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:9:11 [INFO] Loaded from cache, selected_target: ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None)
+14/6/2026 19:9:12 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 19:9:14 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 6 targets found
+14/6/2026 19:9:14 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:9:14 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:9:17 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:9:17 [INFO] Loaded from cache, scanned_targets: [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:9:19 [INFO] State changed: selected_source_index is now 3
+14/6/2026 19:9:19 [INFO] State changed: selected_source is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 19:9:24 [INFO] State changed: selected_source_index is now 1
+14/6/2026 19:9:24 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 19:9:26 [INFO] State changed: selected_target_index is now 2
+14/6/2026 19:9:26 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 19:10:1 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:10:1 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:10:1 [INFO] Loaded from cache, selected_target: ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 19:10:1 [INFO] Loaded from cache, scanned_targets: [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:10:1 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:10:1 [INFO] Loaded from cache, selected_target: ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)
+14/6/2026 19:10:3 [INFO] Network (long_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 19:15:12 [INFO] Network (quick_scan) scan started on 192.168.0.0/24 using iface: wlp1s0
+14/6/2026 19:15:15 [INFO] Network scan (quick_scan) completed on 192.168.0.0/24, 7 targets found
+14/6/2026 19:15:15 [INFO] Netowork scan target dropdown is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:15:15 [INFO] Netowork scan table is being updated with [('192.168.0.1', 'AC:22:05:89:1E:64', '', None), ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None), ('192.168.0.2', 'D8:07:B6:C5:08:BF', '', None), ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None), ('192.168.0.241', '74:40:BE:24:C6:76', '', None), ('192.168.0.3', '70:4D:7B:15:59:AC', '', None), ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)]
+14/6/2026 19:15:18 [INFO] State changed: selected_source_index is now 1
+14/6/2026 19:15:18 [INFO] State changed: selected_source is now ('192.168.0.1', 'AC:22:05:89:1E:64', '', None)
+14/6/2026 19:15:23 [INFO] State changed: selected_target_index is now 4
+14/6/2026 19:15:23 [INFO] State changed: selected_target is now ('192.168.0.241', '74:40:BE:24:C6:76', '', None)
+14/6/2026 19:15:37 [INFO] State changed: selected_target_index is now 1
+14/6/2026 19:15:37 [INFO] State changed: selected_target is now ('192.168.0.143', '9A:4D:E5:16:EB:C2', '', None)
+14/6/2026 19:15:48 [INFO] State changed: selected_target_index is now 6
+14/6/2026 19:15:48 [INFO] State changed: selected_target is now ('192.168.0.31', 'FA:0D:52:43:9E:ED', '', None)
+14/6/2026 19:16:3 [INFO] State changed: selected_target_index is now 3
+14/6/2026 19:16:3 [INFO] State changed: selected_target is now ('192.168.0.213', '0A:3C:D9:14:8B:28', '', None)

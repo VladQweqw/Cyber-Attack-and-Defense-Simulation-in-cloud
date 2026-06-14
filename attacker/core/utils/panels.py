@@ -241,11 +241,12 @@ def arp_spoofing(content_frame, ttk):
 
         def start():
             textVar.set("Stop spoofing")
+
             while not stop_event.is_set():
                 attacks.arp_spoofing_target(
                     host_tupl=state.selected_source, 
                     target_tupl=state.selected_target, 
-                    randomise_mac=var.get(),
+                    randomise_mac=True if int(var.get()) == 1 else False,
                     delay=0.2
                 )
 
